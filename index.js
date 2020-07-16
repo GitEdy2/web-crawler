@@ -81,8 +81,9 @@ axios.get('https://news.ycombinator.com/')
         
         //printHackerNews();
         //filtercomments(hackerNews());
-        filterscores(hackerNews());
-    });        
+        //filterscores(hackerNews());
+    })
+    .catch(error => console.log(error));     
 
     
 
