@@ -79,9 +79,15 @@ axios.get('https://news.ycombinator.com/')
             return console.log(sortfilter2);
         }
         
+            console.log('--------Lista de Publicaciones---------')
             printHackerNews();
-            //filtercomments(hackerNews());
-            //filterscores(hackerNews());
+            console.log('------------------FIN------------------')
+            console.log('------------Primer Filtro--------------')
+            filtercomments(hackerNews());
+            console.log('------------------FIN------------------')
+            console.log('------------Segundo Filtro--------------')
+            filterscores(hackerNews());
+            console.log('------------------FIN------------------')
     })
     .catch(error => console.log(error));
 
