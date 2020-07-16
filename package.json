@@ -1,0 +1,27 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Project Web Crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitEdy2/web-crawler.git"
+  },
+  "keywords": [],
+  "author": "Edison Proano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitEdy2/web-crawler/issues"
+  },
+  "homepage": "https://github.com/GitEdy2/web-crawler#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
